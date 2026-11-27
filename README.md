@@ -1,7 +1,5 @@
 # Kernel-Based Nonparametric Tests for Shape Constraints
 
-Replication package accompanying the article *Kernel-Based Nonparametric Tests for Shape Constraints* by Rohan Sen.
-
 ## Abstract
 
 Economic theory offers predictions about whether investors earn higher expected returns for bearing greater market risk or holding longer-maturity securities. Answering such questions empirically requires distinguishing genuine departures from these predictions from patterns arising in noisy financial data. We address this challenge by developing a nonparametric framework for testing shape restrictions on financial relationships learned from observed returns and other payoffs. Rather than imposing monotonicity or convexity, our approach allows the data to reveal departures from these restrictions and assesses whether they are statistically significant. We establish finite-sample guarantees for payoff estimation and asymptotically valid joint tests under serial dependence. Applications to equity returns and Treasury bills show that apparent violations are not always statistically meaningful. In Treasury markets, the estimated maturity-premium relationship conditional on the prevailing short rate exhibits significant departures from increasing premia that are not detected in the unconditional analysis at the baseline regularization level.
