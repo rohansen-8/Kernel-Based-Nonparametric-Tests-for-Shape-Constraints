@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the article it accompanies and the package itself."
+type: software
+title: "Kernel-Based Nonparametric Tests for Shape Constraints"
+abstract: "Replication package accompanying the article Kernel-Based Nonparametric Tests for Shape Constraints: MATLAB code for the empirical applications, sensitivity analysis and Monte Carlo study, with data instructions and reference exhibits."
+authors:
+  - family-names: Sen
+    given-names: Rohan
+    affiliation: "The Hong Kong University of Science and Technology"
+license: MIT
+version: 1.0.0
+keywords:
+  - shape restrictions
+  - reproducing kernel Hilbert space
+  - nonparametric inference
+  - asset pricing
+preferred-citation:
+  type: unpublished
+  title: "Kernel-Based Nonparametric Tests for Shape Constraints"
+  authors:
+    - family-names: Sen
+      given-names: Rohan
+      affiliation: "The Hong Kong University of Science and Technology"
+  year: 2026
+  notes: "Working paper"

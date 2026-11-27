@@ -1,0 +1,17 @@
+# Licensed data (CRSP and JKP via WRDS) and files derived from them: never committed
+/data/
+
+# Generated outputs
+/results/
+/figures/
+/tables/
+
+# MATLAB temporary files
+*.asv
+*.autosave
+*.mex*
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,46 @@
+\begin{table}[!htbp]
+\centering
+\caption{Shape tests for expected excess returns and firm characteristics}
+\label{tab:e2_shape_tests}
+\begin{tabular}{lccc}
+\toprule
+ & Region 1 & Region 2 & Region 3 \\
+\midrule
+\multicolumn{4}{l}{\textbf{Size}} \\
+\quad Weakly increasing & 0.031\rlap{$^{**}$} & 0.417 & 0.221 \\
+\quad Weakly decreasing & 0.607 & 0.834 & 1.000 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Book-to-Market}} \\
+\quad Weakly increasing & 0.405 & 1.000 & 0.584 \\
+\quad Weakly decreasing & 0.204 & 0.017\rlap{$^{**}$} & 0.223 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Cash Flow-to-Price}} \\
+\quad Weakly increasing & 1.000 & 1.000 & 0.509 \\
+\quad Weakly decreasing & \llap{$<$\,}0.001\rlap{$^{***}$} & 0.116 & 0.880 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Earnings-to-Price}} \\
+\quad Weakly increasing & 0.602 & 1.000 & 0.779 \\
+\quad Weakly decreasing & 0.096\rlap{$^{*}$} & 0.109 & 0.394 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Dividend Yield}} \\
+\quad Weakly increasing & 1.000 & 1.000 & 0.399 \\
+\quad Weakly decreasing & 0.031\rlap{$^{**}$} & 0.066\rlap{$^{*}$} & 0.087\rlap{$^{*}$} \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Momentum}} \\
+\quad Weakly increasing & 0.657 & 1.000 & 0.598 \\
+\quad Weakly decreasing & 0.037\rlap{$^{**}$} & 0.002\rlap{$^{***}$} & 0.265 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Short-Term Reversal}} \\
+\quad Weakly increasing & 0.687 & 0.155 & 0.239 \\
+\quad Weakly decreasing & 0.057\rlap{$^{*}$} & 1.000 & 0.689 \\
+\addlinespace
+\multicolumn{4}{l}{\textbf{Long-Term Reversal}} \\
+\quad Weakly increasing & 0.219 & 0.281 & 0.363 \\
+\quad Weakly decreasing & 0.405 & 0.740 & 1.000 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Notes:} Entries are $p$-values of the cone-Wald test of the null hypothesis that expected excess returns are weakly increasing or weakly decreasing in the characteristic within each region. Regions 1--3 are, in order: Size (market equity, USD millions) [5, 100], [100, 10,000], [10,000, 200,000]; Book-to-Market [0.1, 0.6], [0.6, 1.2], [1.2, 2.2]; Cash Flow-to-Price [0.01, 0.1], [0.1, 0.25], [0.25, 0.4]; Earnings-to-Price [0.01, 0.05], [0.05, 0.1], [0.1, 0.2]; Dividend Yield [0.004, 0.02], [0.02, 0.05], [0.05, 0.08]; Momentum [$-$0.6, 0], [0, 0.5], [0.5, 1.1]; Short-Term Reversal [$-$0.2, $-$0.05], [$-$0.05, 0.05], [0.05, 0.25]; Long-Term Reversal [$-$0.75, 0], [0, 1], [1, 3.5]. The sample has $T = 743$ months. The long-run covariance is estimated by Newey--West with 6 lags, and $p$-values are calibrated with 10,000 Gaussian draws. $^{***}$, $^{**}$ and $^{*}$ denote $p < 0.01$, $p < 0.05$ and $p < 0.10$.
+\end{minipage}
+\end{table}

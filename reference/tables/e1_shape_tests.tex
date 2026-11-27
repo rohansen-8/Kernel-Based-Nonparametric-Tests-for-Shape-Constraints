@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\caption{Shape tests for expected excess returns and market beta}
+\label{tab:e1_shape_tests}
+\begin{tabular}{lccc}
+\toprule
+ & Low Beta & Market Beta & High Beta \\
+ & $[0, 0.75]$ & $[0.75, 1.25]$ & $[1.25, 2.75]$ \\
+\midrule
+Weakly increasing & 1.000 & 1.000 & 0.674 \\
+Weakly decreasing & 0.015\rlap{$^{**}$} & 0.176 & 0.875 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{\linewidth}
+\footnotesize\textit{Notes:} Entries are $p$-values of the cone-Wald test of the null hypothesis that expected excess returns are weakly increasing or weakly decreasing in market beta within each beta region. The sample has $T = 611$ months. The long-run covariance is estimated by Newey--West with 5 lags, and $p$-values are calibrated with 10,000 Gaussian draws. $^{***}$, $^{**}$ and $^{*}$ denote $p < 0.01$, $p < 0.05$ and $p < 0.10$.
+\end{minipage}
+\end{table}
